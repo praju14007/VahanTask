@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestClasses.LoginToVahan">
+      <class name="TestClasses.CrossBrowserTesting">
         <methods>
           <include name="Teardown"/>
-          <include name="setUp"/>
           <include name="verifyLoginWithValidCredential"/>
-          <include name="verifyLoginWithInvalidCredential"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- TestClasses.LoginToVahan -->
+      </class> <!-- TestClasses.CrossBrowserTesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

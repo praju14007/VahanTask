@@ -18,7 +18,7 @@ WebDriver driver;
 	
 
     @FindBy(xpath = "//*[text()='Go to Dashboard']")
-    WebElement dashboard_link;
+    WebElement clickDashboardLink;
     
     @FindBy(name = "Email")
     WebElement Email_Input;
@@ -36,8 +36,8 @@ WebDriver driver;
     WebElement errorMsg;
     
     
-    public void dashboard_link() {
-    	dashboard_link.click();
+    public void clickDashboardLink() {
+    	clickDashboardLink.click();
     }
     
     public void enterCredentials(String email, String password) {
